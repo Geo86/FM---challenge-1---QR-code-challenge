@@ -1,0 +1,1 @@
+# README file of the QR code challenge
