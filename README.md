@@ -27,8 +27,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### SOLUTION
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live solution: [Add solution URL here](https://geo86.github.io/FM---challenge-1---QR-code-challenge/)
 
 ## My process
 
