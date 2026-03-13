@@ -1,0 +1,103 @@
+
+/*RESET*/
+
+/* Simple CSS Reset */
+
+/* Box sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margins */
+body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd {
+  margin: 0;
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Make images easier to work with */
+img, picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Form elements inherit font */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/*COLOR PALETTE*/
+
+$primary-color:#1F314F;
+$secondary-color:#68778D;
+$tertiary-color:#D5E1EF;
+
+$light-color: #fff;
+$dark-color: #0000;
+
+body{
+    background-color: $tertiary-color;
+    font-family: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+
+.wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .card{
+        padding:1rem;
+        background-color: $light-color;
+        max-width: 320px;
+        border-radius: 20px;
+        display:flex;
+        flex-direction: column;
+        gap:24px;
+        padding: 16px 16px 40px 16px;
+        text-align: center;
+
+        &__qr{
+            max-width: 288px;
+        }
+
+        &__img{
+            width:100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        &__title{
+            font-size:1.375rem;
+            font-weight: 700;
+            line-height: 120%;
+        }
+
+        &__text{
+            font-size: 0.9375rem;
+            font-weight: 300;
+            line-height: 140%;
+            color: $secondary-color;
+            padding: 0 1rem;
+        }
+    }
+}
